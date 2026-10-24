@@ -1,0 +1,136 @@
+{
+  "checkedAt": "2026-10-01T22:54:14Z",
+  "status": "ok",
+  "interval": "every 5 minutes (GitHub Actions minimum)",
+  "found": 18,
+  "missing": 3,
+  "weeklyShopSignature": "d9a73861150ee172",
+  "assets": [
+    {
+      "code": "200",
+      "name": "purpleastronaut.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/purpleastronaut.svg",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "blueastronaut.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/blueastronaut.svg",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "cyanastronaut.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/cyanastronaut.svg",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "limeastronaut.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/limeastronaut.svg",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "lemoncrab.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/lemoncrab.svg",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "poisondartfrog.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/poisondartfrog.svg",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "rainbownarwhal.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/rainbownarwhal.svg",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "rainbowjellyfish.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/rainbowjellyfish.svg",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "blizzardclownfish.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/blizzardclownfish.svg",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "donutblobfish.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/donutblobfish.svg",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "crimsonoctopus.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/crimsonoctopus.svg",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "underconstruction.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/underconstruction.svg",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "placeholder.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/placeholder.svg",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "fuego.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/fuego.svg",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "dog.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/dog.svg",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "robotdog.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/robotdog.svg",
+      "ok": true
+    },
+    {
+      "code": "0",
+      "name": "clawmania.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/clawmania.svg",
+      "ok": false
+    },
+    {
+      "code": "0",
+      "name": "fishtank.svg",
+      "url": "https://ac.blooket.com/marketassets/blooks/fishtank.svg",
+      "ok": false
+    },
+    {
+      "code": "200",
+      "name": "Lunch_Pack-DWYwdJdz.png",
+      "url": "https://ac.blooket.com/dashclassic/assets/Lunch_Pack-DWYwdJdz.png",
+      "ok": true
+    },
+    {
+      "code": "200",
+      "name": "SpookyPackBottom-Bb7nZ1oD.png",
+      "url": "https://ac.blooket.com/dashclassic/assets/SpookyPackBottom-Bb7nZ1oD.png",
+      "ok": true
+    },
+    {
+      "code": "0",
+      "name": "snake.png",
+      "url": "https://ac.blooket.com/gamemodes/logos/snake.png",
+      "ok": false
+    }
+  ]
+}

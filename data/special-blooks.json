@@ -1,0 +1,31 @@
+{
+  "lastUpdated": "2026-09-29",
+  "unreleased": [
+    {"name": "Purple Astronaut", "rarity": "Chroma", "pack": "Space", "url": "https://ac.blooket.com/marketassets/blooks/purpleastronaut.svg"},
+    {"name": "Blue Astronaut", "rarity": "Chroma", "pack": "Space", "url": "https://ac.blooket.com/marketassets/blooks/blueastronaut.svg"},
+    {"name": "Cyan Astronaut", "rarity": "Chroma", "pack": "Space", "url": "https://ac.blooket.com/marketassets/blooks/cyanastronaut.svg"},
+    {"name": "Lime Astronaut", "rarity": "Chroma", "pack": "Space", "url": "https://ac.blooket.com/marketassets/blooks/limeastronaut.svg"},
+    {"name": "Lemon Crab", "rarity": "Chroma", "pack": "Aquatic", "url": "https://ac.blooket.com/marketassets/blooks/lemoncrab.svg"},
+    {"name": "Poison Dart Frog", "rarity": "Chroma", "pack": "Aquatic", "url": "https://ac.blooket.com/marketassets/blooks/poisondartfrog.svg"},
+    {"name": "Rainbow Narwhal", "rarity": "Chroma", "pack": "Aquatic", "url": "https://ac.blooket.com/marketassets/blooks/rainbownarwhal.svg"},
+    {"name": "Rainbow Jellyfish", "rarity": "Chroma", "pack": "Aquatic", "url": "https://ac.blooket.com/marketassets/blooks/rainbowjellyfish.svg"},
+    {"name": "Blizzard Clownfish", "rarity": "Chroma", "pack": "Aquatic", "url": "https://ac.blooket.com/marketassets/blooks/blizzardclownfish.svg"},
+    {"name": "Donut Blobfish", "rarity": "Chroma", "pack": "Aquatic", "url": "https://ac.blooket.com/marketassets/blooks/donutblobfish.svg"},
+    {"name": "Crimson Octopus", "rarity": "Chroma", "pack": "Aquatic", "url": "https://ac.blooket.com/marketassets/blooks/crimsonoctopus.svg"},
+    {"name": "Under Construction", "rarity": "Unique", "pack": null, "url": "https://ac.blooket.com/marketassets/blooks/underconstruction.svg"},
+    {"name": "Placeholder", "rarity": "Unique", "pack": null, "url": "https://ac.blooket.com/marketassets/blooks/placeholder.svg"}
+  ],
+  "uniques": [
+    {"name": "Wise Caterpillar", "url": "https://ac.blooket.com/marketassets/blooks/wisecaterpillar.svg", "notes": "Khanmigo"},
+    {"name": "Wise Owl", "url": "https://ac.blooket.com/marketassets/blooks/wiseowl.svg", "notes": "ISTE 2023 (retired)"},
+    {"name": "Fuego", "url": "https://ac.blooket.com/marketassets/blooks/fuego.svg", "notes": "Staff / special"},
+    {"name": "Party Pig", "url": "https://ac.blooket.com/marketassets/blooks/partypig.svg", "notes": "Staff Discord"}
+  ],
+  "mysticals": [
+    {"name": "Tim the Alien", "event": "Pokémon Are Cool", "copies": 2},
+    {"name": "Spooky Ghost", "event": "Contest of Candy 2020", "copies": 2},
+    {"name": "Phantom King", "event": "Potions of Pix'ahlia", "copies": "~50"},
+    {"name": "Rainbow Astronaut", "event": "LUNCH event", "copies": "~25"},
+    {"name": "Hamsta Claus", "event": "Contest of Candy 2023", "copies": "Limited"}
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "lastUpdated": "2026-10-01",
+  "packs": [
+    {
+      "id": "lunch",
+      "name": "Lunch Pack",
+      "cost": 25,
+      "type": "market",
+      "bg": "radial-gradient(circle, rgb(195, 119, 212) 0%, rgb(119, 43, 136) 100%)",
+      "png": "https://ac.blooket.com/dashclassic/assets/Lunch_Pack-DWYwdJdz.png",
+      "packBottom": "https://ac.blooket.com/dashclassic/assets/LunchPackBottom-DMHlxGQI.png",
+      "cornerIcon": "https://ac.blooket.com/dashclassic/assets/Nav_Icon_Lunch-DUWKFHx8.svg",
+      "blookBackground": "https://ac.blooket.com/dashclassic/assets/Highlighted_Background_Lunch-BfOeSTeT.svg",
+      "blooks": [
+        {
+          "name": "Bananas",
+          "rarity": "Uncommon",
+          "chance": 18.75,
+          "url": "https://ac.blooket.com/marketassets/blooks/bananas.svg"
+        },
+        {
+          "name": "Watermelon",
+          "rarity": "Uncommon",
+          "chance": 18.75,
+          "url": "https://ac.blooket.com/marketassets/blooks/watermelon.svg"
+        },
+        {
+          "name": "Cheese",
+          "rarity": "Uncommon",
+          "chance": 18.75,
+          "url": "https://ac.blooket.com/marketassets/blooks/cheese.svg"
+        },
+        {
+          "name": "Doughnut",
+          "rarity": "Uncommon",
+          "chance": 18.75,
+          "url": "https://ac.blooket.com/marketassets/blooks/doughnut.svg"
+        },
+        {
+          "name": "Taco",
+          "rarity": "Rare",
+          "chance": 7,
+          "url": "https://ac.blooket.com/marketassets/blooks/taco.svg"
+        },
+        {
+          "name": "Bao",
+          "rarity": "Rare",
+          "chance": 7,
+          "url": "https://ac.blooket.com/marketassets/blooks/bao.svg"
+        },
+        {
+          "name": "Sushi",
+          "rarity": "Rare",
+          "chance": 7,
+          "url": "https://ac.blooket.com/marketassets/blooks/sushi.svg"
+        },
+        {
+          "name": "Cheeseburger",
+          "rarity": "Epic",
+          "chance": 3.31,
+          "url": "https://ac.blooket.com/marketassets/blooks/cheeseburger.svg"
+        },
+        {
+          "name": "Sandwich",
+          "rarity": "Legendary",
+          "chance": 0.65,
+          "url": "https://ac.blooket.com/marketassets/blooks/sandwich.svg"
+        },
+        {
+          "name": "Half a Sandwich",
+          "rarity": "Chroma",
+          "chance": 0.04,
+          "url": "https://ac.blooket.com/marketassets/blooks/halfasandwich.svg"
+        }
+      ]
+    },
+    {
+      "id": "bug",
+      "name": "Bug Pack",
+      "cost": 25,
+      "type": "market",
+      "blooks": [
+        {
+          "name": "Ant",
+          "rarity": "Uncommon",
+          "chance": 19.625,
+          "url": "https://ac.blooket.com/marketassets/blooks/ant.svg"
+        },
+        {
+          "name": "Rhino Beetle",
+          "rarity": "Uncommon",
+          "chance": 19.625,
+          "url": "https://ac.blooket.com/marketassets/blooks/rhinobeetle.svg"
+        },
+        {
+          "name": "Ladybug",
+          "rarity": "Uncommon",
+          "chance": 19.625,
+          "url": "https://ac.blooket.com/marketassets/blooks/ladybug.svg"
+        },
+        {
+          "name": "Fly",
+          "rarity": "Uncommon",
+          "chance": 19.625,
+          "url": "https://ac.blooket.com/marketassets/blooks/fly.svg"
+        },
+        {
+          "name": "Worm",
+          "rarity": "Rare",
+          "chance": 9,
+          "url": "https://ac.blooket.com/marketassets/blooks/worm.svg"
+        },
+        {
+          "name": "Bee",
+          "rarity": "Rare",
+          "chance": 9,
+          "url": "https://ac.blooket.com/marketassets/blooks/bee.svg"
+        },
+        {
+          "name": "Mantis",
+          "rarity": "Epic",
+          "chance": 2.97,
+          "url": "https://ac.blooket.com/marketassets/blooks/mantis.svg"
+        },
+        {
+          "name": "Butterfly",
+          "rarity": "Legendary",
+          "chance": 0.5,
+          "url": "https://ac.blooket.com/marketassets/blooks/butterfly.svg"
+        },
+        {
+          "name": "Blue Butterfly",
+          "rarity": "Chroma",
+          "chance": 0.03,
+          "url": "https://ac.blooket.com/marketassets/blooks/bluebutterfly.svg"
+        }
+      ]
+    },
+    {
+      "id": "pirate",
+      "name": "Pirate Pack",
+      "cost": 25,
+      "type": "market",
+      "blooks": [
+        {
+          "name": "Deckhand",
+          "rarity": "Uncommon",
+          "chance": 16,
+          "url": "https://ac.blooket.com/marketassets/blooks/deckhand.svg"
+        },
+        {
+          "name": "Buccaneer",
+          "rarity": "Uncommon",
+          "chance": 16,
+          "url": "https://ac.blooket.com/marketassets/blooks/buccaneer.svg"
+        },
+        {
+          "name": "Swashbuckler",
+          "rarity": "Uncommon",
+          "chance": 16,
+          "url": "https://ac.blooket.com/marketassets/blooks/swashbuckler.svg"
+        },
+        {
+          "name": "Treasure Map",
+          "rarity": "Uncommon",
+          "chance": 16,
+          "url": "https://ac.blooket.com/marketassets/blooks/treasuremap.svg"
+        },
+        {
+          "name": "Seagull",
+          "rarity": "Uncommon",
+          "chance": 16,
+          "url": "https://ac.blooket.com/marketassets/blooks/seagull.svg"
+        },
+        {
+          "name": "Jolly Pirate",
+          "rarity": "Rare",
+          "chance": 8,
+          "url": "https://ac.blooket.com/marketassets/blooks/jollypirate.svg"
+        },
+        {
+          "name": "Pirate Ship",
+          "rarity": "Rare",
+          "chance": 8,
+          "url": "https://ac.blooket.com/marketassets/blooks/pirateship.svg"
+        },
+        {
+          "name": "Kraken",
+          "rarity": "Epic",
+          "chance": 3.67,
+          "url": "https://ac.blooket.com/marketassets/blooks/kraken.svg"
+        },
+        {
+          "name": "Captain Blackbeard",
+          "rarity": "Legendary",
+          "chance": 0.3,
+          "url": "https://ac.blooket.com/marketassets/blooks/captainblackbeard.svg"
+        },
+        {
+          "name": "Pirate Pufferfish",
+          "rarity": "Chroma",
+          "chance": 0.03,
+          "url": "https://ac.blooket.com/marketassets/blooks/piratepufferfish.svg"
+        }
+      ]
+    },
+    {
+      "id": "outback",
+      "name": "Outback Pack",
+      "cost": 25,
+      "type": "market",
+      "blooks": [
+        {
+          "name": "Dingo",
+          "rarity": "Uncommon",
+          "chance": 18.75,
+          "url": "https://ac.blooket.com/marketassets/blooks/dingo.svg"
+        },
+        {
+          "name": "Echidna",
+          "rarity": "Uncommon",
+          "chance": 18.75,
+          "url": "https://ac.blooket.com/marketassets/blooks/echidna.svg"
+        },
+        {
+          "name": "Koala",
+          "rarity": "Uncommon",
+          "chance": 18.75,
+          "url": "https://ac.blooket.com/marketassets/blooks/koala.svg"
+        },
+        {
+          "name": "Kookaburra",
+          "rarity": "Uncommon",
+          "chance": 18.75,
+          "url": "https://ac.blooket.com/marketassets/blooks/kookaburra.svg"
+        },
+        {
+          "name": "Platypus",
+          "rarity": "Rare",
+          "chance": 7,
+          "url": "https://ac.blooket.com/marketassets/blooks/platypus.svg"
+        },
+        {
+          "name": "Joey",
+          "rarity": "Rare",
+          "chance": 7,
+          "url": "https://ac.blooket.com/marketassets/blooks/joey.svg"
+        },
+        {
+          "name": "Kangaroo",
+          "rarity": "Rare",
+          "chance": 7,
+          "url": "https://ac.blooket.com/marketassets/blooks/kangaroo.svg"
+        },
+        {
+          "name": "Crocodile",
+          "rarity": "Epic",
+          "chance": 3.6,
+          "url": "https://ac.blooket.com/marketassets/blooks/crocadile.svg"
+        },
+        {
+          "name": "Sugar Glider",
+          "rarity": "Legendary",
+          "chance": 0.37,
+          "url": "https://ac.blooket.com/marketassets/blooks/sugarglider.svg"
+        },
+        {
+          "name": "Teal Platypus",
+          "rarity": "Chroma",
+          "chance": 0.03,
+          "url": "https://ac.blooket.com/marketassets/blooks/tealplatypus.svg"
+        }
+      ]
+    },
+    {
+      "id": "spooky",
+      "name": "Spooky Pack",
+      "cost": 25,
+      "type": "seasonal",
+      "packBottom": "https://ac.blooket.com/dashclassic/assets/SpookyPackBottom-Bb7nZ1oD.png",
+      "blookBackground": "https://ac.blooket.com/dashclassic/assets/Highlighted_Background_Spooky-BE3Q44ax.svg",
+      "blooks": [
+        {
+          "name": "Pumpkin",
+          "rarity": "Uncommon",
+          "chance": 15.2,
+          "url": "https://ac.blooket.com/marketassets/blooks/pumpkin.svg"
+        },
+        {
+          "name": "Swamp Monster",
+          "rarity": "Uncommon",
+          "chance": 15.2,
+          "url": "https://ac.blooket.com/marketassets/blooks/swampmonster.svg"
+        },
+        {
+          "name": "Frankenstein",
+          "rarity": "Uncommon",
+          "chance": 15.2,
+          "url": "https://ac.blooket.com/marketassets/blooks/frankenstein.svg"
+        },
+        {
+          "name": "Vampire",
+          "rarity": "Uncommon",
+          "chance": 15.2,
+          "url": "https://ac.blooket.com/marketassets/blooks/vampire.svg"
+        },
+        {
+          "name": "Zombie",
+          "rarity": "Uncommon",
+          "chance": 15.2,
+          "url": "https://ac.blooket.com/marketassets/blooks/zombie.svg"
+        },
+        {
+          "name": "Mummy",
+          "rarity": "Rare",
+          "chance": 4,
+          "url": "https://ac.blooket.com/marketassets/blooks/mummy.svg"
+        },
+        {
+          "name": "Caramel Apple",
+          "rarity": "Rare",
+          "chance": 4,
+          "url": "https://ac.blooket.com/marketassets/blooks/caramelapple.svg"
+        },
+        {
+          "name": "Candy Corn",
+          "rarity": "Rare",
+          "chance": 4,
+          "url": "https://ac.blooket.com/marketassets/blooks/candycorn.svg"
+        },
+        {
+          "name": "Crow",
+          "rarity": "Rare",
+          "chance": 4,
+          "url": "https://ac.blooket.com/marketassets/blooks/crow.svg"
+        },
+        {
+          "name": "Vampire Bat",
+          "rarity": "Rare",
+          "chance": 4,
+          "url": "https://ac.blooket.com/marketassets/blooks/vampirebat.svg"
+        },
+        {
+          "name": "Werewolf",
+          "rarity": "Epic",
+          "chance": 1.65,
+          "url": "https://ac.blooket.com/marketassets/blooks/werewolf.svg"
+        },
+        {
+          "name": "Goo Monster",
+          "rarity": "Epic",
+          "chance": 1.65,
+          "url": "https://ac.blooket.com/marketassets/blooks/goomonster.svg"
+        },
+        {
+          "name": "Ghost",
+          "rarity": "Legendary",
+          "chance": 0.65,
+          "url": "https://ac.blooket.com/marketassets/blooks/ghost.svg"
+        },
+        {
+          "name": "Spooky Moth",
+          "rarity": "Chroma",
+          "chance": 0.05,
+          "url": "https://ac.blooket.com/marketassets/blooks/spookymoth.svg"
+        }
+      ],
+      "status": "live",
+      "released": "2026-09-30",
+      "notes": "LIVE. Drop rates from in-game Pack modal. Goo Monster + Spooky Moth on CDN."
+    },
+    {
+      "id": "color",
+      "name": "Color Pack",
+      "cost": 0,
+      "type": "secret",
+      "notes": "Only appears when all Common Blooks are taken in a live game. Does not count toward Blook Score.",
+      "blooks": [
+        {
+          "name": "Yellow",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/yellow.svg"
+        },
+        {
+          "name": "Black",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/black.svg"
+        },
+        {
+          "name": "Blue",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/blue.svg"
+        },
+        {
+          "name": "Red",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/red.svg"
+        },
+        {
+          "name": "Green",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/green.svg"
+        },
+        {
+          "name": "Purple",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/purple.svg"
+        },
+        {
+          "name": "Pink",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/pink.svg"
+        },
+        {
+          "name": "Orange",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/orange.svg"
+        },
+        {
+          "name": "Lime",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/lime.svg"
+        },
+        {
+          "name": "Teal",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/teal.svg"
+        },
+        {
+          "name": "Tan",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/tan.svg"
+        },
+        {
+          "name": "Maroon",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/maroon.svg"
+        },
+        {
+          "name": "Gray",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/gray.svg"
+        },
+        {
+          "name": "Mint",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/mint.svg"
+        },
+        {
+          "name": "Salmon",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/salmon.svg"
+        },
+        {
+          "name": "Baby Blue",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/babyblue.svg"
+        },
+        {
+          "name": "Dust",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/dust.svg"
+        },
+        {
+          "name": "Brown",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/brown.svg"
+        },
+        {
+          "name": "Dull Blue",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/dullblue.svg"
+        },
+        {
+          "name": "Light Blue",
+          "rarity": "Common",
+          "url": "https://ac.blooket.com/marketassets/blooks/lightblue.svg"
+        }
+      ]
+    }
+  ]
+}

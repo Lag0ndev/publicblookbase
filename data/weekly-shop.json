@@ -1,0 +1,131 @@
+{
+  "lastChecked": "2026-10-01T22:54:14Z",
+  "lastChanged": null,
+  "note": "Tracks public Blooket market assets tied to limited / weekly-style rotations. Full live banner/title list needs a logged-in session; when the asset signature changes, we log a Weekly Shop rotation event on the Tracker.",
+  "resetHint": "Mon/Tue ~6:00 PM Central (CST/CDT)",
+  "signature": "d9a73861150ee172",
+  "current": {
+    "weekOf": "2026-09-28",
+    "signature": "d9a73861150ee172",
+    "availableCount": 19,
+    "missingCount": 1,
+    "items": [
+      {
+        "name": "fuego",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/fuego.svg",
+        "ok": true
+      },
+      {
+        "name": "lovelyfrog",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/lovelyfrog.svg",
+        "ok": true
+      },
+      {
+        "name": "luckyfrog",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/luckyfrog.svg",
+        "ok": true
+      },
+      {
+        "name": "springfrog",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/springfrog.svg",
+        "ok": true
+      },
+      {
+        "name": "vampirefrog",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/vampirefrog.svg",
+        "ok": true
+      },
+      {
+        "name": "pumpkin",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/pumpkin.svg",
+        "ok": true
+      },
+      {
+        "name": "spookypumpkin",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/spookypumpkin.svg",
+        "ok": true
+      },
+      {
+        "name": "hamstaclaus",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/hamstaclaus.svg",
+        "ok": true
+      },
+      {
+        "name": "timthealien",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/timthealien.svg",
+        "ok": true
+      },
+      {
+        "name": "rainbowastronaut",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/rainbowastronaut.svg",
+        "ok": true
+      },
+      {
+        "name": "agentowl",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/agentowl.svg",
+        "ok": true
+      },
+      {
+        "name": "masterelf",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/masterelf.svg",
+        "ok": true
+      },
+      {
+        "name": "partypig",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/partypig.svg",
+        "ok": true
+      },
+      {
+        "name": "wiseowl",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/wiseowl.svg",
+        "ok": true
+      },
+      {
+        "name": "phantomking",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/phantomking.svg",
+        "ok": true
+      },
+      {
+        "name": "leprechaun",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/leprechaun.svg",
+        "ok": true
+      },
+      {
+        "name": "anacondawizard",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/anacondawizard.svg",
+        "ok": true
+      },
+      {
+        "name": "spookymummy",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/spookymummy.svg",
+        "ok": true
+      },
+      {
+        "name": "astronaut",
+        "type": "asset",
+        "url": "https://ac.blooket.com/marketassets/blooks/astronaut.svg",
+        "ok": true
+      }
+    ],
+    "source": "cdn-probe"
+  },
+  "history": []
+}

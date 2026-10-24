@@ -1,0 +1,1164 @@
+[
+  {
+    "name": "Clownfish",
+    "slug": "clownfish",
+    "rarity": "Uncommon",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/clownfish.svg"
+  },
+  {
+    "name": "Frog",
+    "slug": "frog",
+    "rarity": "Uncommon",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/frog.svg"
+  },
+  {
+    "name": "Jellyfish",
+    "slug": "jellyfish",
+    "rarity": "Uncommon",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/jellyfish.svg"
+  },
+  {
+    "name": "Old Boot",
+    "slug": "oldboot",
+    "rarity": "Uncommon",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/oldboot.svg"
+  },
+  {
+    "name": "Blobfish",
+    "slug": "blobfish",
+    "rarity": "Rare",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/blobfish.svg"
+  },
+  {
+    "name": "Crab",
+    "slug": "crab",
+    "rarity": "Rare",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/crab.svg"
+  },
+  {
+    "name": "Puffer Fish",
+    "slug": "pufferfish",
+    "rarity": "Rare",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/pufferfish.svg"
+  },
+  {
+    "name": "Narwhal",
+    "slug": "narwhal",
+    "rarity": "Epic",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/narwhal.svg"
+  },
+  {
+    "name": "Octopus",
+    "slug": "octopus",
+    "rarity": "Epic",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/octopus.svg"
+  },
+  {
+    "name": "Baby Shark",
+    "slug": "babyshark",
+    "rarity": "Legendary",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/babyshark.svg"
+  },
+  {
+    "name": "Dolphin",
+    "slug": "dolphin",
+    "rarity": "Legendary",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/dolphin.svg"
+  },
+  {
+    "name": "Megalodon",
+    "slug": "megalodon",
+    "rarity": "Legendary",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/megalodon.svg"
+  },
+  {
+    "name": "Blizzard Clownfish",
+    "slug": "blizzardclownfish",
+    "rarity": "Chroma",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/blizzardclownfish.svg"
+  },
+  {
+    "name": "Crimson Octopus",
+    "slug": "crimsonoctopus",
+    "rarity": "Chroma",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/crimsonoctopus.svg"
+  },
+  {
+    "name": "Donut Blobfish",
+    "slug": "donutblobfish",
+    "rarity": "Chroma",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/donutblobfish.svg"
+  },
+  {
+    "name": "Lemon Crab",
+    "slug": "lemoncrab",
+    "rarity": "Chroma",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/lemoncrab.svg"
+  },
+  {
+    "name": "Lovely Frog",
+    "slug": "lovelyfrog",
+    "rarity": "Chroma",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/lovelyfrog.svg"
+  },
+  {
+    "name": "Lucky Frog",
+    "slug": "luckyfrog",
+    "rarity": "Chroma",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/luckyfrog.svg"
+  },
+  {
+    "name": "Poison Dart Frog",
+    "slug": "poisondartfrog",
+    "rarity": "Chroma",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/poisondartfrog.svg"
+  },
+  {
+    "name": "Rainbow Jellyfish",
+    "slug": "rainbowjellyfish",
+    "rarity": "Chroma",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/rainbowjellyfish.svg"
+  },
+  {
+    "name": "Rainbow Narwhal",
+    "slug": "rainbownarwhal",
+    "rarity": "Chroma",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/rainbownarwhal.svg"
+  },
+  {
+    "name": "Skeleton Fish",
+    "slug": "skeletonfish",
+    "rarity": "Chroma",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/skeletonfish.svg"
+  },
+  {
+    "name": "Spring Frog",
+    "slug": "springfrog",
+    "rarity": "Chroma",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/springfrog.svg"
+  },
+  {
+    "name": "Vampire Frog",
+    "slug": "vampirefrog",
+    "rarity": "Chroma",
+    "pack": "Aquatic Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/vampirefrog.svg"
+  },
+  {
+    "name": "Pumpkin Pie",
+    "slug": "pumpkinpie",
+    "rarity": "Rare",
+    "pack": "Autumn Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/pumpkinpie.svg"
+  },
+  {
+    "name": "Turkey",
+    "slug": "turkey",
+    "rarity": "Rare",
+    "pack": "Autumn Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/turkey.svg"
+  },
+  {
+    "name": "Angry Bot",
+    "slug": "angrybot",
+    "rarity": "Uncommon",
+    "pack": "Bot Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/angrybot.svg"
+  },
+  {
+    "name": "Happy Bot",
+    "slug": "happybot",
+    "rarity": "Uncommon",
+    "pack": "Bot Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/happybot.svg"
+  },
+  {
+    "name": "Lil Bot",
+    "slug": "lilbot",
+    "rarity": "Uncommon",
+    "pack": "Bot Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/lilbot.svg"
+  },
+  {
+    "name": "Lovely Bot",
+    "slug": "lovelybot",
+    "rarity": "Uncommon",
+    "pack": "Bot Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/lovelybot.svg"
+  },
+  {
+    "name": "Buddy Bot",
+    "slug": "buddybot",
+    "rarity": "Rare",
+    "pack": "Bot Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/buddybot.svg"
+  },
+  {
+    "name": "Watson",
+    "slug": "watson",
+    "rarity": "Rare",
+    "pack": "Bot Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/watson.svg"
+  },
+  {
+    "name": "Brainy Bot",
+    "slug": "brainybot",
+    "rarity": "Epic",
+    "pack": "Bot Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/brainybot.svg"
+  },
+  {
+    "name": "Mega Bot",
+    "slug": "megabot",
+    "rarity": "Legendary",
+    "pack": "Bot Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/megabot.svg"
+  },
+  {
+    "name": "Breakfast Combo",
+    "slug": "breakfastcombo",
+    "rarity": "Uncommon",
+    "pack": "Breakfast Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/breakfastcombo.svg"
+  },
+  {
+    "name": "Cereal",
+    "slug": "cereal",
+    "rarity": "Uncommon",
+    "pack": "Breakfast Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/cereal.svg"
+  },
+  {
+    "name": "Orange Juice",
+    "slug": "orangejuice",
+    "rarity": "Uncommon",
+    "pack": "Breakfast Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/orangejuice.svg"
+  },
+  {
+    "name": "Toast",
+    "slug": "toast",
+    "rarity": "Uncommon",
+    "pack": "Breakfast Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/toast.svg"
+  },
+  {
+    "name": "Yogurt",
+    "slug": "yogurt",
+    "rarity": "Uncommon",
+    "pack": "Breakfast Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/yogurt.svg"
+  },
+  {
+    "name": "Milk",
+    "slug": "milk",
+    "rarity": "Rare",
+    "pack": "Breakfast Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/milk.svg"
+  },
+  {
+    "name": "Pancakes",
+    "slug": "pancakes",
+    "rarity": "Rare",
+    "pack": "Breakfast Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/pancakes.svg"
+  },
+  {
+    "name": "Waffle",
+    "slug": "waffle",
+    "rarity": "Rare",
+    "pack": "Breakfast Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/waffle.svg"
+  },
+  {
+    "name": "French Toast",
+    "slug": "frenchtoast",
+    "rarity": "Epic",
+    "pack": "Breakfast Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/frenchtoast.svg"
+  },
+  {
+    "name": "Pizza",
+    "slug": "pizza",
+    "rarity": "Legendary",
+    "pack": "Breakfast Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/pizza.svg"
+  },
+  {
+    "name": "Ant",
+    "slug": "ant",
+    "rarity": "Uncommon",
+    "pack": "Bug Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/ant.svg"
+  },
+  {
+    "name": "Butterfly",
+    "slug": "butterfly",
+    "rarity": "Uncommon",
+    "pack": "Bug Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/butterfly.svg"
+  },
+  {
+    "name": "Earth Worm",
+    "slug": "worm",
+    "rarity": "Uncommon",
+    "pack": "Bug Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/worm.svg"
+  },
+  {
+    "name": "Ladybug",
+    "slug": "ladybug",
+    "rarity": "Uncommon",
+    "pack": "Bug Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/ladybug.svg"
+  },
+  {
+    "name": "Bee",
+    "slug": "bee",
+    "rarity": "Rare",
+    "pack": "Bug Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/bee.svg"
+  },
+  {
+    "name": "Mantis",
+    "slug": "mantis",
+    "rarity": "Rare",
+    "pack": "Bug Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/mantis.svg"
+  },
+  {
+    "name": "Amber",
+    "slug": "amber",
+    "rarity": "Uncommon",
+    "pack": "Dino Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/amber.svg"
+  },
+  {
+    "name": "Dino Egg",
+    "slug": "dinoegg",
+    "rarity": "Uncommon",
+    "pack": "Dino Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/dinoegg.svg"
+  },
+  {
+    "name": "Dino Fossil",
+    "slug": "dinofossil",
+    "rarity": "Uncommon",
+    "pack": "Dino Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/dinofossil.svg"
+  },
+  {
+    "name": "Stegosaurus",
+    "slug": "stegosaurus",
+    "rarity": "Uncommon",
+    "pack": "Dino Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/stegosaurus.svg"
+  },
+  {
+    "name": "Brontosaurus",
+    "slug": "brontosaurus",
+    "rarity": "Rare",
+    "pack": "Dino Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/brontosaurus.svg"
+  },
+  {
+    "name": "Velociraptor",
+    "slug": "velociraptor",
+    "rarity": "Rare",
+    "pack": "Dino Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/velociraptor.svg"
+  },
+  {
+    "name": "Triceratops",
+    "slug": "triceratops",
+    "rarity": "Epic",
+    "pack": "Dino Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/triceratops.svg"
+  },
+  {
+    "name": "Tyrannosaurus Rex",
+    "slug": "tyrannosaurusrex",
+    "rarity": "Legendary",
+    "pack": "Dino Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/tyrannosaurusrex.svg"
+  },
+  {
+    "name": "Poodle",
+    "slug": "poodle",
+    "rarity": "Uncommon",
+    "pack": "Dog Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/poodle.svg"
+  },
+  {
+    "name": "Dalmatian",
+    "slug": "dalmatian",
+    "rarity": "Epic",
+    "pack": "Dog Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/dalmatian.svg"
+  },
+  {
+    "name": "Golden Retriever",
+    "slug": "goldenretriever",
+    "rarity": "Legendary",
+    "pack": "Dog Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/goldenretriever.svg"
+  },
+  {
+    "name": "Dog",
+    "slug": "dog",
+    "rarity": "Unique",
+    "pack": "Dog Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/dog.svg"
+  },
+  {
+    "name": "Robot Dog",
+    "slug": "robotdog",
+    "rarity": "Unique",
+    "pack": "Dog Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/robotdog.svg"
+  },
+  {
+    "name": "Cat",
+    "slug": "cat",
+    "rarity": "Uncommon",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/cat.svg"
+  },
+  {
+    "name": "Chick",
+    "slug": "chick",
+    "rarity": "Uncommon",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/chick.svg"
+  },
+  {
+    "name": "Chicken",
+    "slug": "chicken",
+    "rarity": "Uncommon",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/chicken.svg"
+  },
+  {
+    "name": "Cow",
+    "slug": "cow",
+    "rarity": "Uncommon",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/cow.svg"
+  },
+  {
+    "name": "Duck",
+    "slug": "duck",
+    "rarity": "Uncommon",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/duck.svg"
+  },
+  {
+    "name": "Goat",
+    "slug": "goat",
+    "rarity": "Uncommon",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/goat.svg"
+  },
+  {
+    "name": "Goldfish",
+    "slug": "goldfish",
+    "rarity": "Uncommon",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/goldfish.svg"
+  },
+  {
+    "name": "Horse",
+    "slug": "horse",
+    "rarity": "Uncommon",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/horse.svg"
+  },
+  {
+    "name": "Pig",
+    "slug": "pig",
+    "rarity": "Uncommon",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/pig.svg"
+  },
+  {
+    "name": "Sheep",
+    "slug": "sheep",
+    "rarity": "Uncommon",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/sheep.svg"
+  },
+  {
+    "name": "Agent Owl",
+    "slug": "agentowl",
+    "rarity": "Chroma",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/agentowl.svg"
+  },
+  {
+    "name": "Anaconda Wizard",
+    "slug": "anacondawizard",
+    "rarity": "Chroma",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/anacondawizard.svg"
+  },
+  {
+    "name": "Hamsta Claus",
+    "slug": "hamstaclaus",
+    "rarity": "Chroma",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/hamstaclaus.svg"
+  },
+  {
+    "name": "Leprechaun",
+    "slug": "leprechaun",
+    "rarity": "Chroma",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/leprechaun.svg"
+  },
+  {
+    "name": "Master Elf",
+    "slug": "masterelf",
+    "rarity": "Chroma",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/masterelf.svg"
+  },
+  {
+    "name": "Party Pig",
+    "slug": "partypig",
+    "rarity": "Chroma",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/partypig.svg"
+  },
+  {
+    "name": "Wise Owl",
+    "slug": "wiseowl",
+    "rarity": "Chroma",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/wiseowl.svg"
+  },
+  {
+    "name": "Fuego",
+    "slug": "fuego",
+    "rarity": "Unique",
+    "pack": "Hidden Blooks",
+    "img": "https://ac.blooket.com/marketassets/blooks/fuego.svg"
+  },
+  {
+    "name": "Snow Globe",
+    "slug": "snowglobe",
+    "rarity": "Uncommon",
+    "pack": "Ice Monster Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/snowglobe.svg"
+  },
+  {
+    "name": "Snowman",
+    "slug": "snowman",
+    "rarity": "Uncommon",
+    "pack": "Ice Monster Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/snowman.svg"
+  },
+  {
+    "name": "Arctic Fox",
+    "slug": "arcticfox",
+    "rarity": "Rare",
+    "pack": "Ice Monster Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/arcticfox.svg"
+  },
+  {
+    "name": "Penguin",
+    "slug": "penguin",
+    "rarity": "Rare",
+    "pack": "Ice Monster Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/penguin.svg"
+  },
+  {
+    "name": "Baby Penguin",
+    "slug": "babypenguin",
+    "rarity": "Epic",
+    "pack": "Ice Monster Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/babypenguin.svg"
+  },
+  {
+    "name": "Polar Bear",
+    "slug": "polarbear",
+    "rarity": "Legendary",
+    "pack": "Ice Monster Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/polarbear.svg"
+  },
+  {
+    "name": "Yeti",
+    "slug": "yeti",
+    "rarity": "Chroma",
+    "pack": "Ice Monster Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/yeti.svg"
+  },
+  {
+    "name": "Bananas",
+    "slug": "bananas",
+    "rarity": "Uncommon",
+    "pack": "Lunch Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/bananas.svg"
+  },
+  {
+    "name": "Sandwich",
+    "slug": "sandwich",
+    "rarity": "Uncommon",
+    "pack": "Lunch Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/sandwich.svg"
+  },
+  {
+    "name": "Cheese",
+    "slug": "cheese",
+    "rarity": "Rare",
+    "pack": "Lunch Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/cheese.svg"
+  },
+  {
+    "name": "Taco",
+    "slug": "taco",
+    "rarity": "Legendary",
+    "pack": "Lunch Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/taco.svg"
+  },
+  {
+    "name": "Elf",
+    "slug": "elf",
+    "rarity": "Uncommon",
+    "pack": "Medieval Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/elf.svg"
+  },
+  {
+    "name": "Fairy",
+    "slug": "fairy",
+    "rarity": "Uncommon",
+    "pack": "Medieval Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/fairy.svg"
+  },
+  {
+    "name": "Slime Monster",
+    "slug": "slimemonster",
+    "rarity": "Uncommon",
+    "pack": "Medieval Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/slimemonster.svg"
+  },
+  {
+    "name": "Witch",
+    "slug": "witch",
+    "rarity": "Uncommon",
+    "pack": "Medieval Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/witch.svg"
+  },
+  {
+    "name": "Wizard",
+    "slug": "wizard",
+    "rarity": "Uncommon",
+    "pack": "Medieval Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/wizard.svg"
+  },
+  {
+    "name": "Dragon",
+    "slug": "dragon",
+    "rarity": "Rare",
+    "pack": "Medieval Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/dragon.svg"
+  },
+  {
+    "name": "Jester",
+    "slug": "jester",
+    "rarity": "Rare",
+    "pack": "Medieval Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/jester.svg"
+  },
+  {
+    "name": "Queen",
+    "slug": "queen",
+    "rarity": "Rare",
+    "pack": "Medieval Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/queen.svg"
+  },
+  {
+    "name": "Unicorn",
+    "slug": "unicorn",
+    "rarity": "Epic",
+    "pack": "Medieval Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/unicorn.svg"
+  },
+  {
+    "name": "King",
+    "slug": "king",
+    "rarity": "Legendary",
+    "pack": "Medieval Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/king.svg"
+  },
+  {
+    "name": "Phantom King",
+    "slug": "phantomking",
+    "rarity": "Chroma",
+    "pack": "Medieval Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/phantomking.svg"
+  },
+  {
+    "name": "Dingo",
+    "slug": "dingo",
+    "rarity": "Uncommon",
+    "pack": "Outback Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/dingo.svg"
+  },
+  {
+    "name": "Echidna",
+    "slug": "echidna",
+    "rarity": "Uncommon",
+    "pack": "Outback Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/echidna.svg"
+  },
+  {
+    "name": "Koala",
+    "slug": "koala",
+    "rarity": "Uncommon",
+    "pack": "Outback Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/koala.svg"
+  },
+  {
+    "name": "Kookaburra",
+    "slug": "kookaburra",
+    "rarity": "Uncommon",
+    "pack": "Outback Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/kookaburra.svg"
+  },
+  {
+    "name": "Crocodile",
+    "slug": "crocodile",
+    "rarity": "Rare",
+    "pack": "Outback Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/crocodile.svg"
+  },
+  {
+    "name": "Platypus",
+    "slug": "platypus",
+    "rarity": "Rare",
+    "pack": "Outback Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/platypus.svg"
+  },
+  {
+    "name": "Sugar Glider",
+    "slug": "sugarglider",
+    "rarity": "Epic",
+    "pack": "Outback Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/sugarglider.svg"
+  },
+  {
+    "name": "Kangaroo",
+    "slug": "kangaroo",
+    "rarity": "Legendary",
+    "pack": "Outback Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/kangaroo.svg"
+  },
+  {
+    "name": "Buccaneer",
+    "slug": "buccaneer",
+    "rarity": "Uncommon",
+    "pack": "Pirate Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/buccaneer.svg"
+  },
+  {
+    "name": "Parrot",
+    "slug": "parrot",
+    "rarity": "Uncommon",
+    "pack": "Pirate Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/parrot.svg"
+  },
+  {
+    "name": "Treasure Map",
+    "slug": "treasuremap",
+    "rarity": "Uncommon",
+    "pack": "Pirate Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/treasuremap.svg"
+  },
+  {
+    "name": "Pirate Ship",
+    "slug": "pirateship",
+    "rarity": "Epic",
+    "pack": "Pirate Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/pirateship.svg"
+  },
+  {
+    "name": "Kraken",
+    "slug": "kraken",
+    "rarity": "Legendary",
+    "pack": "Pirate Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/kraken.svg"
+  },
+  {
+    "name": "Elephant",
+    "slug": "elephant",
+    "rarity": "Uncommon",
+    "pack": "Safari Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/elephant.svg"
+  },
+  {
+    "name": "Giraffe",
+    "slug": "giraffe",
+    "rarity": "Uncommon",
+    "pack": "Safari Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/giraffe.svg"
+  },
+  {
+    "name": "Hippo",
+    "slug": "hippo",
+    "rarity": "Uncommon",
+    "pack": "Safari Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/hippo.svg"
+  },
+  {
+    "name": "Zebra",
+    "slug": "zebra",
+    "rarity": "Uncommon",
+    "pack": "Safari Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/zebra.svg"
+  },
+  {
+    "name": "Flamingo",
+    "slug": "flamingo",
+    "rarity": "Rare",
+    "pack": "Safari Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/flamingo.svg"
+  },
+  {
+    "name": "Rhino",
+    "slug": "rhino",
+    "rarity": "Rare",
+    "pack": "Safari Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/rhino.svg"
+  },
+  {
+    "name": "Lion",
+    "slug": "lion",
+    "rarity": "Epic",
+    "pack": "Safari Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/lion.svg"
+  },
+  {
+    "name": "Tiger",
+    "slug": "tiger",
+    "rarity": "Epic",
+    "pack": "Safari Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/tiger.svg"
+  },
+  {
+    "name": "Chameleon",
+    "slug": "chameleon",
+    "rarity": "Chroma",
+    "pack": "Safari Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/chameleon.svg"
+  },
+  {
+    "name": "Gorilla",
+    "slug": "gorilla",
+    "rarity": "Chroma",
+    "pack": "Safari Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/gorilla.svg"
+  },
+  {
+    "name": "Alien",
+    "slug": "alien",
+    "rarity": "Uncommon",
+    "pack": "Space Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/alien.svg"
+  },
+  {
+    "name": "Earth",
+    "slug": "earth",
+    "rarity": "Uncommon",
+    "pack": "Space Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/earth.svg"
+  },
+  {
+    "name": "Meteor",
+    "slug": "meteor",
+    "rarity": "Uncommon",
+    "pack": "Space Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/meteor.svg"
+  },
+  {
+    "name": "Stars",
+    "slug": "stars",
+    "rarity": "Uncommon",
+    "pack": "Space Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/stars.svg"
+  },
+  {
+    "name": "Planet",
+    "slug": "planet",
+    "rarity": "Rare",
+    "pack": "Space Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/planet.svg"
+  },
+  {
+    "name": "UFO",
+    "slug": "ufo",
+    "rarity": "Rare",
+    "pack": "Space Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/ufo.svg"
+  },
+  {
+    "name": "Spaceship",
+    "slug": "spaceship",
+    "rarity": "Epic",
+    "pack": "Space Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/spaceship.svg"
+  },
+  {
+    "name": "Astronaut",
+    "slug": "astronaut",
+    "rarity": "Legendary",
+    "pack": "Space Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/astronaut.svg"
+  },
+  {
+    "name": "Blue Astronaut",
+    "slug": "blueastronaut",
+    "rarity": "Chroma",
+    "pack": "Space Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/blueastronaut.svg"
+  },
+  {
+    "name": "Cyan Astronaut",
+    "slug": "cyanastronaut",
+    "rarity": "Chroma",
+    "pack": "Space Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/cyanastronaut.svg"
+  },
+  {
+    "name": "Lime Astronaut",
+    "slug": "limeastronaut",
+    "rarity": "Chroma",
+    "pack": "Space Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/limeastronaut.svg"
+  },
+  {
+    "name": "Purple Astronaut",
+    "slug": "purpleastronaut",
+    "rarity": "Chroma",
+    "pack": "Space Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/purpleastronaut.svg"
+  },
+  {
+    "name": "Rainbow Astronaut",
+    "slug": "rainbowastronaut",
+    "rarity": "Chroma",
+    "pack": "Space Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/rainbowastronaut.svg"
+  },
+  {
+    "name": "Tim the Alien",
+    "slug": "timthealien",
+    "rarity": "Chroma",
+    "pack": "Space Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/timthealien.svg"
+  },
+  {
+    "name": "Alice",
+    "slug": "alice",
+    "rarity": "Uncommon",
+    "pack": "Wonderland Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/alice.svg"
+  },
+  {
+    "name": "Drink Me",
+    "slug": "drinkme",
+    "rarity": "Uncommon",
+    "pack": "Wonderland Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/drinkme.svg"
+  },
+  {
+    "name": "Eat Me",
+    "slug": "eatme",
+    "rarity": "Uncommon",
+    "pack": "Wonderland Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/eatme.svg"
+  },
+  {
+    "name": "Two of Spades",
+    "slug": "twoofspades",
+    "rarity": "Uncommon",
+    "pack": "Wonderland Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/twoofspades.svg"
+  },
+  {
+    "name": "Dormouse",
+    "slug": "dormouse",
+    "rarity": "Rare",
+    "pack": "Wonderland Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/dormouse.svg"
+  },
+  {
+    "name": "Queen of Hearts",
+    "slug": "queenofhearts",
+    "rarity": "Rare",
+    "pack": "Wonderland Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/queenofhearts.svg"
+  },
+  {
+    "name": "White Rabbit",
+    "slug": "whiterabbit",
+    "rarity": "Rare",
+    "pack": "Wonderland Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/whiterabbit.svg"
+  },
+  {
+    "name": "Cheshire Cat",
+    "slug": "cheshirecat",
+    "rarity": "Epic",
+    "pack": "Wonderland Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/cheshirecat.svg"
+  },
+  {
+    "name": "Mad Hatter",
+    "slug": "madhatter",
+    "rarity": "Epic",
+    "pack": "Wonderland Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/madhatter.svg"
+  },
+  {
+    "name": "King of Hearts",
+    "slug": "kingofhearts",
+    "rarity": "Legendary",
+    "pack": "Wonderland Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/kingofhearts.svg"
+  },
+  {
+    "name": "Pumpkin",
+    "slug": "pumpkin",
+    "rarity": "Uncommon",
+    "pack": "Spooky Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/pumpkin.svg",
+    "dropRate": 15.2
+  },
+  {
+    "name": "Swamp Monster",
+    "slug": "swampmonster",
+    "rarity": "Uncommon",
+    "pack": "Spooky Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/swampmonster.svg",
+    "dropRate": 15.2
+  },
+  {
+    "name": "Frankenstein",
+    "slug": "frankenstein",
+    "rarity": "Uncommon",
+    "pack": "Spooky Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/frankenstein.svg",
+    "dropRate": 15.2
+  },
+  {
+    "name": "Vampire",
+    "slug": "vampire",
+    "rarity": "Uncommon",
+    "pack": "Spooky Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/vampire.svg",
+    "dropRate": 15.2
+  },
+  {
+    "name": "Zombie",
+    "slug": "zombie",
+    "rarity": "Uncommon",
+    "pack": "Spooky Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/zombie.svg",
+    "dropRate": 15.2
+  },
+  {
+    "name": "Mummy",
+    "slug": "mummy",
+    "rarity": "Rare",
+    "pack": "Spooky Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/mummy.svg",
+    "dropRate": 4
+  },
+  {
+    "name": "Caramel Apple",
+    "slug": "caramelapple",
+    "rarity": "Rare",
+    "pack": "Spooky Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/caramelapple.svg",
+    "dropRate": 4
+  },
+  {
+    "name": "Candy Corn",
+    "slug": "candycorn",
+    "rarity": "Rare",
+    "pack": "Spooky Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/candycorn.svg",
+    "dropRate": 4
+  },
+  {
+    "name": "Crow",
+    "slug": "crow",
+    "rarity": "Rare",
+    "pack": "Spooky Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/crow.svg",
+    "dropRate": 4
+  },
+  {
+    "name": "Vampire Bat",
+    "slug": "vampirebat",
+    "rarity": "Rare",
+    "pack": "Spooky Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/vampirebat.svg",
+    "dropRate": 4
+  },
+  {
+    "name": "Werewolf",
+    "slug": "werewolf",
+    "rarity": "Epic",
+    "pack": "Spooky Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/werewolf.svg",
+    "dropRate": 1.65
+  },
+  {
+    "name": "Goo Monster",
+    "slug": "goomonster",
+    "rarity": "Epic",
+    "pack": "Spooky Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/goomonster.svg",
+    "dropRate": 1.65
+  },
+  {
+    "name": "Ghost",
+    "slug": "ghost",
+    "rarity": "Legendary",
+    "pack": "Spooky Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/ghost.svg",
+    "dropRate": 0.65
+  },
+  {
+    "name": "Spooky Moth",
+    "slug": "spookymoth",
+    "rarity": "Chroma",
+    "pack": "Spooky Pack",
+    "img": "https://ac.blooket.com/marketassets/blooks/spookymoth.svg",
+    "dropRate": 0.05
+  }
+]

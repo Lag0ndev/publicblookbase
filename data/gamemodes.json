@@ -1,0 +1,51 @@
+{
+  "lastUpdated": "2026-09-30",
+  "gamemodes": [
+    {
+      "name": "Snake Escape",
+      "status": "Released",
+      "type": "Solo / Homework",
+      "notes": "Classic snake + questions. Adventure & Endless modes.",
+      "help": "https://help.blooket.com/hc/en-us/articles/43540816155799-Game-Overview-Snake-Escape",
+      "youtube": "https://www.youtube.com/watch?v=xZg4eByFmn0",
+      "image": "https://media.blooket.com/image/upload/v1776987136/Media/logos/snake.png"
+    },
+    {
+      "name": "Plushie Panic",
+      "status": "Released",
+      "type": "Solo",
+      "notes": "Match capsules and rescue plushies. Background shows unreleased gamemodes.",
+      "help": "https://help.blooket.com/hc/en-us/articles/31970801907095-Game-Overview-Plushie-Panic",
+      "image": "https://ac.blooket.com/gamemodes/logos/bubble.png"
+    },
+    {
+      "name": "Fish Tank Trouble",
+      "status": "Unreleased",
+      "type": "Solo / Homework (leaked)",
+      "notes": "Seen as arcade machine in Plushie Panic background.",
+      "image": "https://ac.blooket.com/gamemodes/logos/fish.png"
+    },
+    {
+      "name": "Claw Mania",
+      "status": "Upcoming (Season 8)",
+      "type": "Unknown",
+      "notes": "Claw-machine style, similar to Plushie Panic.",
+      "image": "https://ac.blooket.com/gamemodes/logos/bubble.png"
+    },
+    {
+      "name": "Starstream Odyssey",
+      "status": "Leaked only",
+      "type": "Unknown",
+      "notes": "Name appears on arcade machine in Plushie Panic.",
+      "image": "https://ac.blooket.com/gamemodes/logos/bricks.png"
+    },
+    {
+      "name": "Imposters",
+      "status": "Canceled",
+      "type": "Deleted",
+      "notes": "Among Us style. Scrapped due to gameplay + copyright concerns.",
+      "wiki": "https://blooket.fandom.com/wiki/Imposters",
+      "image": "https://ac.blooket.com/gamemodes/logos/brawl.png"
+    }
+  ]
+}

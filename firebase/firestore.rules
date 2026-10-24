@@ -1,0 +1,60 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // -------- CHAT (public read, locked-down create) --------
+    match /chat/{messageId} {
+      allow read: if true;
+
+      allow create: if
+        request.resource.data.keys().hasOnly(['text', 'name', 'ts', 'sid'])
+        && request.resource.data.text is string
+        && request.resource.data.text.size() > 0
+        && request.resource.data.text.size() <= 300
+        && request.resource.data.name is string
+        && request.resource.data.name.size() > 0
+        && request.resource.data.name.size() <= 24
+        && request.resource.data.text.trim().size() > 0
+        && request.resource.data.name.trim().size() > 0
+        && request.resource.data.ts is int
+        && request.resource.data.ts > request.time.toMillis() - 7200000
+        && request.resource.data.ts < request.time.toMillis() + 300000
+        && request.resource.data.sid is string
+        && request.resource.data.sid.size() > 0
+        && request.resource.data.sid.size() <= 64
+        && !request.resource.data.text.matches('.*[\\x00-\\x08\\x0B\\x0C\\x0E-\\x1F].*')
+        && !request.resource.data.name.matches('.*[\\x00-\\x1F].*');
+
+      allow update, delete: if false;
+    }
+
+    // -------- TOKENS / STATS / INVENTORY — no client access until Auth --------
+    match /users/{userId} {
+      allow read, write: if false;
+      match /{document=**} {
+        allow read, write: if false;
+      }
+    }
+
+    match /tokens/{docId} {
+      allow read, write: if false;
+    }
+
+    match /inventory/{docId} {
+      allow read, write: if false;
+    }
+
+    match /stats/{docId} {
+      allow read, write: if false;
+    }
+
+    match /market/{docId} {
+      allow read, write: if false;
+    }
+
+    // -------- DEFAULT DENY everything else --------
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
