@@ -1,0 +1,12 @@
+Deploy fix applied.
+
+If Vercel still shows a failed check on an OLD commit, ignore it.
+Only the latest commit on main matters.
+
+After this commit deploys green:
+1. Open https://blookbase.vercel.app
+2. Hard refresh (Ctrl+Shift+R)
+3. Open sidebar - Leaks and Tracker should appear
+
+Routes:
+/leaks and /tracker work via SPA injector (bb-leaks-tracker.js).
