@@ -1,0 +1,8 @@
+URGENT: index.html was overwritten with PLACEHOLDER.
+
+To fix:
+1. On GitHub, go to Commits on main
+2. Revert the commit that says "Fix stuck page editor"
+OR upload the restored index.html from the agent conversation.
+
+After restore, the admin fix (Lock admin button + adminForceLogout) still needs to be applied.

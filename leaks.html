@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Leaks · Blookbase</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Titan+One&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .nav-row{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:24px}
+    .nav-row a{color:#fff;font-weight:900;text-decoration:none;background:rgba(255,255,255,0.15);padding:8px 14px;border-radius:10px;border:3px solid rgba(255,255,255,0.3)}
+    .nav-row a:hover{background:#9a49aa}
+    .blook-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:12px;margin-top:12px}
+    .blook-cell{background:rgba(0,0,0,0.2);border-radius:10px;padding:10px;text-align:center}
+    .blook-cell img{width:72px;height:72px;object-fit:contain}
+    .blook-cell .name{font-size:12px;font-weight:800;margin-top:6px}
+    .blook-cell .rarity{font-size:10px;font-weight:900;opacity:0.85;text-transform:uppercase}
+    .url-line{font-size:11px;word-break:break-all;opacity:0.75;margin-top:4px}
+    code{background:rgba(0,0,0,0.25);padding:2px 6px;border-radius:4px;font-size:11px}
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="bgBlooks"></div>
+  <div class="main-content">
+    <h1 class="header-title">Leaks</h1>
+    <div class="nav-row">
+      <a href="/">Home</a>
+      <a href="/countdown">Countdown</a>
+      <a href="/leaks">Leaks</a>
+      <a href="/tracker">Tracker</a>
+      <a href="/about">About</a>
+    </div>
+    <div class="leaks-wrap" id="leaks-root">
+      <div class="leaks-section">
+        <h3>Unreleased / Secret Blooks</h3>
+        <p style="font-size:13px;font-weight:700;opacity:0.9;margin:0 0 10px">Assets on ac.blooket.com that are not normal pack drops.</p>
+        <div class="blook-grid" id="unreleased-grid">Loading…</div>
+      </div>
+      <div class="leaks-section">
+        <h3>Uniques</h3>
+        <div class="blook-grid" id="uniques-grid">Loading…</div>
+      </div>
+      <div class="leaks-section">
+        <h3>Mysticals</h3>
+        <ul id="mysticals-list">Loading…</ul>
+      </div>
+      <div class="leaks-section">
+        <h3>Secret Pack — Color Pack</h3>
+        <p style="font-size:13px;font-weight:700;opacity:0.9">Only appears when all Commons are taken in a live game. Not in Market.</p>
+        <div class="blook-grid" id="color-grid">Loading…</div>
+      </div>
+      <div class="leaks-section">
+        <h3>Gamemode leaks</h3>
+        <ul id="gm-list">Loading…</ul>
+      </div>
+      <div class="leaks-section">
+        <h3>Notes</h3>
+        <ul>
+          <li><span class="tag">info</span> Not affiliated with Blooket. For fan archival only.</li>
+          <li><span class="tag">info</span> URLs are public CDN assets; existence does not mean obtainable.</li>
+          <li><span class="tag">tracker</span> Live checks run via GitHub Action → see <a href="/tracker" style="color:#fff3b0">Tracker</a>.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="watermark">Blookbase</div>
+  </div>
+  <script>
+    function cell(b) {
+      const img = b.url ? '<img src="' + b.url + '" alt="" loading="lazy" onerror="this.style.opacity=0.3" />' : '';
+      return '<div class="blook-cell">' + img
+        + '<div class="name">' + (b.name || '') + '</div>'
+        + '<div class="rarity">' + (b.rarity || '') + (b.pack ? ' · ' + b.pack : '') + '</div>'
+        + (b.url ? '<div class="url-line">' + b.url.replace('https://ac.blooket.com/marketassets/blooks/','') + '</div>' : '')
+        + '</div>';
+    }
+    async function load() {
+      try {
+        const special = await fetch('data/special-blooks.json').then(r => r.json());
+        document.getElementById('unreleased-grid').innerHTML = (special.unreleased || []).map(cell).join('');
+        document.getElementById('uniques-grid').innerHTML = (special.uniques || []).map(cell).join('');
+        document.getElementById('mysticals-list').innerHTML = (special.mysticals || []).map(m =>
+          '<li><span class="tag">mystical</span> <strong>' + m.name + '</strong> — ' + m.event + ' (' + m.copies + ' copies)</li>'
+        ).join('');
+      } catch (e) {
+        document.getElementById('unreleased-grid').textContent = 'Failed to load special-blooks.json';
+      }
+      try {
+        const packs = await fetch('data/packs.json').then(r => r.json());
+        const color = (packs.packs || []).find(p => p.id === 'color');
+        document.getElementById('color-grid').innerHTML = color
+          ? (color.blooks || []).map(cell).join('')
+          : 'No Color Pack data';
+      } catch (e) {
+        document.getElementById('color-grid').textContent = 'Failed to load packs.json';
+      }
+      try {
+        const gm = await fetch('data/gamemodes.json').then(r => r.json());
+        document.getElementById('gm-list').innerHTML = (gm.gamemodes || []).map(g =>
+          '<li><span class="tag ' + (g.status === 'Released' ? 'released' : 'upcoming') + '">' + g.status + '</span> '
+          + '<strong>' + g.name + '</strong> — ' + (g.notes || '') + '</li>'
+        ).join('');
+      } catch (e) {
+        document.getElementById('gm-list').textContent = 'Failed to load gamemodes.json';
+      }
+    }
+    load();
+  </script>
+</body>
+</html>

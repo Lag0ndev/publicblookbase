@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tracker · Blookbase</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Titan+One&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .tracker-wrap{width:100%;max-width:820px;text-align:left;padding-bottom:40px}
+    .tracker-card{background:#9a49aa;border:6px solid rgba(255,255,255,0.2);border-radius:10px;padding:16px 18px;margin-bottom:14px;box-shadow:4px 4px rgba(0,0,0,0.2);color:#fff}
+    .tracker-card h3{font-family:'Titan One',sans-serif;font-weight:normal;font-size:20px;margin:0 0 8px}
+    .tracker-meta{font-size:12px;font-weight:800;opacity:0.85;margin-bottom:8px}
+    .tracker-body{font-size:14px;font-weight:700;line-height:1.45}
+    .tracker-links a{color:#fff3b0;font-weight:800;margin-right:10px}
+    .status-pill{display:inline-block;padding:4px 10px;border-radius:8px;font-size:11px;font-weight:900;text-transform:uppercase;background:rgba(0,0,0,0.25)}
+    .status-ok{background:rgba(40,167,69,0.9)}
+    .check-box{background:rgba(0,0,0,0.2);border-radius:8px;padding:12px;font-family:monospace;font-size:12px;white-space:pre-wrap;margin-top:8px}
+    .nav-row{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:24px}
+    .nav-row a{color:#fff;font-weight:900;text-decoration:none;background:rgba(255,255,255,0.15);padding:8px 14px;border-radius:10px;border:3px solid rgba(255,255,255,0.3)}
+    .nav-row a:hover{background:#9a49aa}
+    .bb-ut-imgs{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+    .bb-ut-img{background:rgba(0,0,0,.18);border-radius:8px;padding:8px 6px 6px;text-align:center;min-width:72px}
+    .bb-ut-img img{width:48px;height:48px;object-fit:contain;display:block;margin:0 auto 4px}
+    .bb-ut-img span{display:block;font-size:10px;font-weight:800;line-height:1.2;max-width:80px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="bgBlooks"></div>
+  <div class="main-content">
+    <h1 class="header-title">Tracker</h1>
+    <div class="nav-row">
+      <a href="/">Home</a>
+      <a href="/countdown">Countdown</a>
+      <a href="/leaks">Leaks</a>
+      <a href="/tracker">Tracker</a>
+      <a href="/secret">Secret !!!</a>
+      <a href="/about">About</a>
+    </div>
+    <div class="tracker-wrap" id="tracker-root">
+      <div class="tracker-card">
+        <h3>Live asset check</h3>
+        <div class="tracker-meta">From GitHub Action · every 5 min</div>
+        <div id="last-check">Loading last-check.json…</div>
+      </div>
+      <div id="updates-list">Loading updates…</div>
+    </div>
+    <div class="watermark">Blookbase</div>
+  </div>
+  <script>
+    async function load() {
+      try {
+        const check = await fetch('data/last-check.json').then(r => r.ok ? r.json() : null).catch(() => null);
+        const el = document.getElementById('last-check');
+        if (check) {
+          el.innerHTML = '<span class="status-pill status-ok">' + (check.status || 'ok') + '</span> '
+            + '<div class="tracker-meta">Last check: ' + (check.checkedAt || 'unknown') + '</div>'
+            + (check.interval ? '<div class="tracker-meta">Interval: ' + check.interval + '</div>' : '');
+        } else {
+          el.textContent = 'No last-check.json yet — run the Action once.';
+        }
+      } catch (e) {
+        document.getElementById('last-check').textContent = 'Could not load last-check.';
+      }
+
+      try {
+        const data = await fetch('data/updates.json').then(r => r.json());
+        const list = document.getElementById('updates-list');
+        list.innerHTML = (data.entries || []).map(e => {
+          const links = (e.links || []).map(u => '<a href="' + u + '" target="_blank" rel="noopener">link</a>').join(' ');
+          const imgs = (e.images || []).map(im =>
+            '<div class="bb-ut-img"><img src="' + im.src + '" alt="' + (im.label || '') + '" loading="lazy" onerror="this.parentNode.style.display=\'none\'"><span>' + (im.label || '') + '</span></div>'
+          ).join('');
+          const imgsBlock = imgs ? '<div class="bb-ut-imgs">' + imgs + '</div>' : '';
+          return '<div class="tracker-card">'
+            + '<h3>' + e.title + '</h3>'
+            + '<div class="tracker-meta"><span class="status-pill">' + e.type + '</span> · ' + e.date + '</div>'
+            + '<div class="tracker-body">' + e.body + '</div>'
+            + imgsBlock
+            + (links ? '<div class="tracker-links" style="margin-top:8px">' + links + '</div>' : '')
+            + '</div>';
+        }).join('') || '<div class="tracker-card">No updates yet.</div>';
+      } catch (e) {
+        document.getElementById('updates-list').textContent = 'Could not load updates.json';
+      }
+    }
+    load();
+  </script>
+</body>
+</html>
